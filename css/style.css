@@ -1,0 +1,59 @@
+body{
+	
+	padding: 0 !important;
+	background-color: #14bdac;
+	margin:0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 100%;
+
+	
+}
+canvas {
+    display: block;
+  	margin:0 auto;
+}
+
+#scoreContainer{
+	width:500px;
+	height:20px;
+	
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+.score {
+	
+	width:210px;
+	height: 20px;
+	background-color:#fff;
+	padding: 10px;
+	line-height:20px;
+	font-size:20px;
+}
+
+#xscore {
+	float:left;
+}
+
+#oscore {
+	float:right;
+}
+
+.point {
+	float:right;
+}
+
+.mark{
+	float:left;
+}
+
+.activePlayer{
+	
+	border-bottom:2px solid #004c2e;
+	
+}
+
